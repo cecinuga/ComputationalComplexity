@@ -2,7 +2,7 @@
 This repo contain various algorithms, divided by category.
 For each category you can analize a visual complexity representation
 
-[Sorting](https://leetcode.com/u/cecinuga/)
+[Sorting](https://github.com/cecinuga/ComputationalComplexity/tree/main/Sorting)
 
 
 ## What is Computational Complexity Theory?
