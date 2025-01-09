@@ -2,7 +2,7 @@
 
 Computational Complexity Theory is a branch of theoretical computer science that focuses on classifying computational problems according to their inherent difficulty. It aims to understand the resources required to solve these problems, such as time and space, and to determine the efficiency of algorithms.
 
-![Complexity Categories](complexity_category.png)
+![Complexity Categories](./source/complexity_category.png)
 
 ### Key Concepts
 
