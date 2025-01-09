@@ -2,6 +2,9 @@
 This repo contain various algorithms, divided by category.
 For each category you can analize a visual complexity representation
 
+[Sorting](https://leetcode.com/u/cecinuga/)
+
+
 ## What is Computational Complexity Theory?
 
 Computational Complexity Theory is a branch of theoretical computer science that focuses on classifying computational problems according to their inherent difficulty. It aims to understand the resources required to solve these problems, such as time and space, and to determine the efficiency of algorithms.
