@@ -30,6 +30,3 @@ def merge_sort(A: list[int], p: int=0, r: int=0):
         merge_sort(A, q, r)
         merge(A, p, q, r)
     return A
-
-A = [9, 8, 7, 6]
-print(merge_sort(A))
