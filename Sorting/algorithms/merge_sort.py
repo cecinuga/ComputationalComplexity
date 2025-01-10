@@ -2,8 +2,8 @@ def merge(A: list[int], p: int, q: int, r: int):
     first_len = q - p 
     second_len = r - q
 
-    L = [0] * (first_len + 1)
-    R = [0] * (second_len + 1)
+    L = [0] * first_len
+    R = [0] * second_len
 
     for i in range(first_len):
         L[i] = A[p+i]
@@ -11,18 +11,16 @@ def merge(A: list[int], p: int, q: int, r: int):
     for j in range(second_len):
         R[j] = A[q+j]
 
-    L[first_len] = float('inf')
-    R[second_len] = float('inf')
-
     i, j = 0, 0
 
     for k in range(p, r):
-        if L[i] <= R[j]:
+        if j == len(R) or L[i] <= R[j]:
             A[k] = L[i]
             i += 1
-        else:
+        elif i == len(L) or  R[j] <= L[i] :
             A[k] = R[j]
             j += 1
+            
 
 def merge_sort(A: list[int], p: int=0, r: int=0):
     if r == 0: r = len(A)
@@ -33,4 +31,5 @@ def merge_sort(A: list[int], p: int=0, r: int=0):
         merge(A, p, q, r)
     return A
 
-
+A = [9, 8, 7, 6]
+print(merge_sort(A))
