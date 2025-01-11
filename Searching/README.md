@@ -1,17 +1,17 @@
 
 
-**Searching Algorithm Complexity Analisys ( worst case )**
-==========================================================
+**Sorting Algorithm Complexity Analisys ( worst case )**
+========================================================
 
 README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 
-Binary Search - $\log n$
-------------------------
+**Merge Sort - $\nlog n$**
+--------------------------
 
-Linear Search - $\n$
---------------------
+**Insertion Sort - $\n^2$**
+---------------------------
 
-![](./source/searching_complexity.png)Complexity Analysis
+![](./source/sorting_complexity.png)Complexity Analysis
   
 
   
