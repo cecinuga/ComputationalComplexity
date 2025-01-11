@@ -12,5 +12,5 @@ python ${MARKPLATE}/markplate.py --temp ${MARKPLATE}/templates/computational_com
 deactivate
 $GIT add .
 $GIT commit -m ${args[0]}
-$$GIT push
+$GIT push
 
