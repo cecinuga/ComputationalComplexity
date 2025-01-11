@@ -5,11 +5,11 @@
 
 README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 
-**Binary Search - $\log n$**
-----------------------------
+**Binary Search - $\ O(log n)$**
+--------------------------------
 
-**Linear Search - $\n$**
-------------------------
+**Linear Search - $\ O(n)$**
+----------------------------
 
 ![](./source/searching_complexity.png)Complexity Analysis
   
