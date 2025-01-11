@@ -5,11 +5,11 @@
 
 README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 
-**Merge Sort - $\nlog n$**
---------------------------
+**Merge Sort - $\ O(nlog n)$**
+------------------------------
 
-**Insertion Sort - $\n^2$**
----------------------------
+**Insertion Sort - $\ O(n^2)$**
+-------------------------------
 
 ![](./source/sorting_complexity.png)Complexity Analysis
   
