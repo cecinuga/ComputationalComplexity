@@ -1,8 +1,19 @@
-## Sorting Algorithm Compexity Analisys ( worst case )
-
-#### Insertion Sort $\ O(n^2)$
-
-![Complexity Categories](./source/sorting_complexity.png)
 
 
-##### All sorting algorithms are in the Cormen notation
+**Sorting Algorithm Complexity Analisys ( worst case )**
+========================================================
+
+README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
+
+**Merge Sort - $\nlog n$**
+--------------------------
+
+**Insertion Sort - $\n^2$**
+---------------------------
+
+![](./source/sorting_complexity.png)Complexity Analysis
+  
+
+  
+#### All sorting algorithms are in the Cormen notation
+
