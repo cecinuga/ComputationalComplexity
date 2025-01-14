@@ -12,7 +12,7 @@ README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 --------------------------------
 
 **Max Sub Array - $\ O(n^2)$**
--------------------------------
+------------------------------
 
 ![](./source/searching_complexity.png)Complexity Analysis
   
