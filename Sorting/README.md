@@ -11,6 +11,9 @@ README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 **Merge Sort - $\ O(nlog n)$**
 ------------------------------
 
+**Bubble Sort - $\ O(None)$**
+-----------------------------
+
 ![](./source/sorting_complexity.png)Complexity Analysis
   
 
