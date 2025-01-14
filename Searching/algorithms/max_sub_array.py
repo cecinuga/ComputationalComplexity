@@ -33,8 +33,3 @@ def max_sub_array(A:list[int], low:int=0, high:int=-1) -> tuple[int, int, int]:
     if left_sum >= right_sum and left_sum >= cross_sum: return ( left_low, left_high, left_sum )
     if right_sum >= left_sum and right_sum >= cross_sum: return ( right_low, right_high, right_sum )
     return ( cross_low, cross_high, cross_sum )
-
-
-
-print(max_sub_array([28, 0]))
-#print(max_sub_array([13, -3, -25, -20, -3, -16, -23, 18, 20, -7, 12, -5, -22, 15, -4, 7]))
