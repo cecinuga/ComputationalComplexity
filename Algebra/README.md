@@ -5,10 +5,7 @@
 
 README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 
-**Horner Method - $\ O(None)$**
--------------------------------
-
-**Horner Method - $\ O(None)$**
+**Horner Method - $\ O(n)$**
 -------------------------------
 
 ![](./source/algebra_complexity.png)Complexity Analysis
