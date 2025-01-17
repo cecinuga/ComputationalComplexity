@@ -14,6 +14,21 @@ README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 **Max Sub Array - $\ O(n^2)$**
 ------------------------------
 
+**Random Search - $\ O(n^2)$**
+------------------------------
+
+**Linear Search - $\ O(n)$**
+----------------------------
+
+**Binary Search - $\ O(log n)$**
+--------------------------------
+
+**Max Sub Array - $\ O(n^2)$**
+------------------------------
+
+**Random Search - $\ O(n^2)$**
+------------------------------
+
 ![](./source/searching_complexity.png)Complexity Analysis
   
 
