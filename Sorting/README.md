@@ -1,7 +1,7 @@
 
 
-**Sorting Algorithm Complexity Analisys ( worst case )**
-========================================================
+**Sorting Algorithm Complexity Analisys ( middle case )**
+=========================================================
 
 README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 
@@ -16,6 +16,9 @@ README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 
 **Heap Sort - $\ O(n log n)$**
 ------------------------------
+
+**Quick Sort - $\ O(n log n)$**
+-------------------------------
 
 ![](./source/sorting_complexity.png)Complexity Analysis
   
