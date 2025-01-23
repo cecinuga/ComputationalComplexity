@@ -1,7 +1,6 @@
 def counting_sort(A: list[int], k: int):
     B = [0]*len(A)
     C = [0]*(k+1)
-
     for j in range(len(A)):
         C[A[j]] += 1
 
@@ -13,7 +12,3 @@ def counting_sort(A: list[int], k: int):
         C[A[x]] = C[A[x]] - 1
 
     return B
-
-A = [0, 2, 1, 3, 1, 1, 1]
-B = counting_sort(A, 3)
-print(B)
