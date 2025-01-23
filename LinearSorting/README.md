@@ -5,8 +5,8 @@
 
 README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 
-**Counting Sort - $\ O(None)$**
--------------------------------
+**Counting Sort - $\ O(n)$**
+----------------------------
 
 ![](./source/linearsorting_complexity.png)Complexity Analysis
   
