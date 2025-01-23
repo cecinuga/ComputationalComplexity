@@ -5,11 +5,11 @@
 
 README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 
-**Counting Sort - $\ O(n)$**
-----------------------------
+**Counting Sort - $\ O(n+k)$**
+------------------------------
 
-**Radix Sort - $\ O(None)$**
-----------------------------
+**Radix Sort - $\ O(d( n+k ))$**
+--------------------------------
 
 ![](./source/linearsorting_complexity.png)Complexity Analysis
   
