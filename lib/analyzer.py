@@ -20,7 +20,6 @@ def generate__list_of_non_sorted_integers__test_case(n_test_case: int):
     ]
     return {'test_case': test_cases, 'length':test_case_lengths}
 
-
 def generate_horner_test_case(n_test_case: int):
     test_case_lengths = [ test_case for test_case in range(1, n_test_case+1) ]
     test_cases = [
@@ -38,5 +37,14 @@ def generate_square_matrix_test_case(n_test_case: int):
         ),ComplexityAnalizerList(
             list(np.random.randint(low=0, high=256, size=(i+1,i+1)))
         ) ] for i in range(n_test_case)
+    ]
+    return {'test_case': test_cases, 'length':test_case_lengths}
+
+def generate_matrix_test_case(n_test_case: int):
+    test_case_lengths = [ test_case for test_case in range(1, n_test_case+1) ]
+    test_cases = [
+        (ComplexityAnalizerList(
+            list(np.random.randint(low=0, high=256, size=(i+1,i+1)))
+        ), 0) for i in range(n_test_case)
     ]
     return {'test_case': test_cases, 'length':test_case_lengths}
