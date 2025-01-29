@@ -8,11 +8,11 @@ README writed by: [MARKPLATE](https://github.com/cecinuga/markplate)
 **Horner Method - $\ O(n)$**
 ----------------------------
 
-**Square Matrix Multiply - $\ O(None)$**
-----------------------------------------
+**Square Matrix Multiply - $\ O(n^3)$**
+---------------------------------------
 
-**Gauss Algorithm - $\ O(None)$**
----------------------------------
+**Gauss Algorithm - $\ O(n^3)$**
+--------------------------------
 
 ![](./source/algebra_complexity.png)Complexity Analysis
   
