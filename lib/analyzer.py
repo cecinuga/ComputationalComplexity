@@ -2,6 +2,15 @@ import random
 import numpy as np
 from ca_types import ComplexityAnalizerList
 
+def generate__list_of_random_naturals__test_cases(n_test_case: int):
+    test_case_lengths = [ test_case for test_case in range(1, n_test_case+1) ]
+    test_cases = [
+        ComplexityAnalizerList(
+            random.randrange(-test_case_lengths[i], test_case_lengths[i]) for i in range(test_case_lengths[i])
+        ) for i in range(n_test_case)
+    ]
+    return {'test_case': test_cases, 'length':test_case_lengths}
+
 def generate__list_of_naturals__test_cases(n_test_case: int):
     test_case_lengths = [ test_case for test_case in range(1, n_test_case+1) ]
     test_cases = [
@@ -10,6 +19,7 @@ def generate__list_of_naturals__test_cases(n_test_case: int):
         ) for i in range(n_test_case)
     ]
     return {'test_case': test_cases, 'length':test_case_lengths}
+
 
 def generate__list_of_non_sorted_integers__test_case(n_test_case: int):
     test_case_lengths = [ test_case for test_case in range(1, n_test_case+1) ]
